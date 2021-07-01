@@ -1,0 +1,6 @@
+git fetch upstream
+--baixa os arquivos
+
+git merge
+--aplica as alterações
+

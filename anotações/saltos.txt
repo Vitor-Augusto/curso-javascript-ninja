@@ -1,0 +1,34 @@
+return
+//no caso abaixo, se num fosse igual a 10 a função retornaria true e não executaria o restante do código, o return funcionaria como um salto
+function myFunction(){
+	var num = 5;
+	
+	if(num === 10){
+		return true;
+	}
+
+	var num2 = 5;
+	var name = 'Fulano de Tal';
+	return name + ' ' + num2;
+}
+console.log(myFunction());
+---------------------------------------------
+break
+quando o i for igual a 5 vai executar o braek e saíra do laço
+for(var i = 0; i < 10; i++){
+	if(i === 5){
+		break;
+	}
+	console.log(i);
+}
+console.log( 'fim do for')
+-----------------------------------------------
+continue
+pula a execução, quando o resto da divisão de i por 2 for diferente de 0 ele salta, mostrando somente os numeros pares
+for(var i = 0; i < 10; i++){
+	if(i % 2 !== 0){
+		continue;
+	}
+	console.log(i);
+}
+console.log( 'fim do for')

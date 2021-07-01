@@ -1,0 +1,9 @@
+myVar.valueof - mostra o valor real da variavel.
+myVar.typeof - mostra o tipo da variavel.
+
+Converter variaveis
+myVar = String('50')
+myVar = Number('200')
+myVar = Boolean('0')
+
+!!{} - Testa o valor booleano da variavel(no caso do objeto {}).

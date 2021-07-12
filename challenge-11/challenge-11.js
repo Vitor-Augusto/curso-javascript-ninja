@@ -10,16 +10,21 @@ Qual loop você deve usar para que essa mensagem seja mostrada no console?
 */
 let once = false
 
-if (once){
-    
-}
+do {
+    console.log('Entrou ao menos uma vez!')
+} while (once)
 
 /*
 Crie um objeto chamado `person`, que receba as seguintes propriedades:
 - 'name', 'age', 'weight' e 'birthday'. Preencha com os valores corretos
 para o nome, idade, peso e data de nascimento dessa pessoa.
 */
-// ?
+var person = {
+  'name': "Vitor",
+  'age': 33,
+  'weight': 87,
+  'birthday': "26/09/1987"
+}
 
 /*
 Use um loop para percorrer o objeto criado acima, mostrando no console
@@ -30,7 +35,10 @@ esse objeto tem.
 Após o loop, mostre a frase:
 'The person has [COUNTER] properties'
 */
-// ?
+for(var prop in person) {
+  console.log('The ' +prop+ ' of person is '+person[prop]+ '.');
+}
+
 
 /*
 Crie uma função chamada `moreThan`, que vai verificar se a pessoa (objeto
